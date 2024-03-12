@@ -48,6 +48,7 @@ type Chat struct {
 
 	// Returns only in getChat
 	Bio                      string        `json:"bio,omitempty"`
+	ActiveUsernames          []string      `json:"active_usernames"`
 	Photo                    *ChatPhoto    `json:"photo,omitempty"`
 	Description              string        `json:"description,omitempty"`
 	InviteLink               string        `json:"invite_link,omitempty"`
